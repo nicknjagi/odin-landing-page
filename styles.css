@@ -33,6 +33,7 @@ body{
 nav ul{
     display: flex;
     gap:1rem;
+    padding-top: 3px;
 }
 li{
     list-style: none;
@@ -103,4 +104,30 @@ h2 {
 .cards-container img{
     height: 130px;
     border-radius:10px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+}
+.quote{
+    width: 720px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+q{
+    quotes: none;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote-container div p{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right:3rem;
 }
