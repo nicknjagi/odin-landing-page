@@ -41,3 +41,32 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+main{
+    background-color: var(--dark-bg);
+    color: #f9faf8;
+}
+.main-container{
+    display: flex;
+    align-items:  center;
+    gap: 1.5rem;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.main-container img {
+    width: 470px;
+    height: auto;
+}
+.main-container button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-family: inherit;
+    padding: 5px 1.5rem;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
