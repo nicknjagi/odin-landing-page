@@ -144,7 +144,7 @@ q{
     display: flex;
     align-items: center;
     background-color: #3882f6;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .cta {
     margin: auto;
@@ -160,4 +160,13 @@ q{
     border: none;
     background-color: #f9faf8;
     color: #3882f6;
+}
+
+footer {
+    background-color:#1f2937;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
