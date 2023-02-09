@@ -63,14 +63,16 @@ h1 {
     width: 470px;
     height: auto;
 }
-.main-container button{
+button{
     background-color: #3882f6;
-    color:#f9faf8;
+    color: #f9faf8;
     font-family: inherit;
     padding: 5px 1.5rem;
-    margin-top: 10px;
     border: none;
     border-radius: 5px;
+}
+.main-container button{
+    margin-top: 10px;
 }
 .main-container button:hover{
     background-color:#015cf0 ;
@@ -94,7 +96,6 @@ h2 {
 
 .cards-container {
     display: flex;
-    justify-content: center;
     gap: 2.5rem;
 }
 
@@ -129,5 +130,34 @@ q{
     align-self: flex-end;
     font-weight: bold;
     font-size: 18px;
-    margin-right:3rem;
+}
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: #e5e7eb;
+}
+.cta-sub-container {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+.cta {
+    margin: auto;
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+}
+.cta button {
+    border: 3px solid #f9faf8;
+    margin: auto 0;
+}
+.cta button:hover{
+    border: none;
+    background-color: #f9faf8;
+    color: #3882f6;
 }
